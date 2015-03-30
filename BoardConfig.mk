@@ -20,7 +20,7 @@
 TARGET_OTA_ASSERT_DEVICE := v400,e7,e7wifi
 
 # Kernel
-TARGET_KERNEL_CONFIG := cyanogen_e7wifi_defconfig
+TARGET_KERNEL_CONFIG := e7wifi_caf_defconfig
 
 # inherit from the proprietary version
 -include vendor/lge/v400/BoardConfigVendor.mk
