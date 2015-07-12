@@ -19,6 +19,8 @@
 
 TARGET_OTA_ASSERT_DEVICE := v400,e7,e7wifi
 
+WITH_LZMA_OTA := true
+
 # Kernel
 TARGET_KERNEL_CONFIG := e7wifi_defconfig
 
